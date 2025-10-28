@@ -45,8 +45,6 @@ The project follows these key steps:
 Demonstrating Quantum Potential
 This project provides a powerful validation of quantum optimization algorithms for complex financial problems.
 
-While this project was run on a classical simulator (meaning we don't see a speed advantage), it demonstrates a crucial concept: solution quality.
-
 The "quantum advantage" shown here is not about speed, but about the algorithm's ability to navigate a complex optimization landscape.
 
 Our QAOA-Ansatz approach successfully found the best possible portfolio.
