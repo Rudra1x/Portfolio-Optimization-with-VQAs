@@ -5,7 +5,7 @@
 ![Finance](https://img.shields.io/badge/Domain-Finance-brightgreen.svg)
 ![Algorithm](https://img.shields.io/badge/Algorithms-VQE%20%7C%20QAOA-orange.svg)
 
-This project applies and evaluates quantum optimization algorithms—specifically the **Variational Quantum Eigensolver (VQE)** and **VQE with a QAOA-Ansatz**—to solve a real-world financial problem: Markowitz portfolio optimization.
+This project applies and evaluates quantum optimization algorithms—specifically the **Variational Quantum Eigensolver (VQE)** and **QAOA-Ansatz**—to solve a real-world financial problem: Markowitz portfolio optimization.
 
 The goal is to find the optimal allocation of assets to maximize expected returns for a given level of risk. We compare the performance of these quantum algorithms against both an exact classical solver (`NumpyMinimumEigensolver`) and a classical sampling-based heuristic (`SamplingMinimumEigensolver`).
 
