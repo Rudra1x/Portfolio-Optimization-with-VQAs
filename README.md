@@ -1,4 +1,4 @@
-# 📈 Quantum Portfolio Optimization: A VQE & QAOA Approach
+# Quantum Portfolio Optimization: A VQE & QAOA Approach
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)
 ![Qiskit](https://img.shields.io/badge/Qiskit-0.45%2B-blueviolet.svg)
@@ -37,6 +37,11 @@ The project follows these key steps:
     * **Quantum (VQE):** The Variational Quantum Eigensolver using a `RealAmplitudes` ansatz and an `SPSA` optimizer.
     * **Quantum (QAOA-Ansatz):** VQE using a `QAOAAnsatz` and an `SPSA` optimizer.
 6.  **Backtesting:** The total return of each selected portfolio is calculated using a separate test data period to evaluate real-world performance.
+# VQE (from Cell #13): 9.48% Total Returns
+# QAOA (from Cell #16): 10.83% Total Returns
+# Classical (from Cell #17): 8.27% Total Returns
+# Naive (from Cell #17): 5.45% Total Returns
+
 
 ## 📦 Requirements
 
