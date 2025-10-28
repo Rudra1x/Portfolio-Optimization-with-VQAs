@@ -42,7 +42,18 @@ The project follows these key steps:
 # Classical (from Cell #17): 8.27% Total Returns
 # Naive (from Cell #17): 5.45% Total Returns
 
+Demonstrating Quantum Potential
+This project provides a powerful validation of quantum optimization algorithms for complex financial problems.
 
+While this project was run on a classical simulator (meaning we don't see a speed advantage), it demonstrates a crucial concept: solution quality.
+
+The "quantum advantage" shown here is not about speed, but about the algorithm's ability to navigate a complex optimization landscape.
+
+Our QAOA-Ansatz approach successfully found the best possible portfolio.
+
+It proved superior to both a classical heuristic (SamplingEigensolver) and a more generic quantum heuristic (VQE with RealAmplitudes), both of which got stuck in local minima and returned sub-optimal results.
+
+This is the key promise of quantum computing for finance: as quantum hardware scales, these algorithms have the potential to solve portfolio optimization problems that are too large for any classical exact solver (like NumpyMinimumEigensolver), while still delivering better, more optimal solutions than classical heuristics.
 ## 📦 Requirements
 
 To run this project, you will need the libraries listed in `requirements.txt`.
